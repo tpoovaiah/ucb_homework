@@ -1,10 +1,31 @@
 .background {
     background-image: url(https://www.toptal.com/designers/subtlepatterns/patterns/double-bubble-outline.png);
-    background-repeat: repeat;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.content-box {
+    background-color: #ffffff;
+    border: solid #dddddd;
+    border-width: 1px;
+    padding: 30px;
 }
 
 .nav-bar {
     
+}
+
+.img {
+    width: 200px;
+    height: 200px;
+    float: left;
+    padding-right: 20px;
+}
+
+.content-title {
+    color: #4aaaa5;
+    border-bottom: solid #cccccc;
+    padding-bottom: 20px;
 }
 
 /* 
