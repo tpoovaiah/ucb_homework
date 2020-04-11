@@ -28,9 +28,24 @@ a {
 
 .nav-bar {
     background-color: #ffffff;
+    width: 100%;
     padding-top: 20px ;
     border-bottom: solid #cccccc;
     border-width: 1.5px;
+}
+
+.foot-bar {
+    background-color: #666666;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    color: white;
+    font-size: x-small;
+    border-top: solid #4aaaa5;
+    border-width: 5px;
 }
 
 .content-box {
