@@ -2,23 +2,20 @@
     background-image: url(https://www.toptal.com/designers/subtlepatterns/patterns/double-bubble-outline.png);
 }
 
-.nav-bar {
-    background-color: #ffffff;
-    padding-top: 20px ;
-    padding-bottom: 20px;
-    padding-right: 20%;
-    text-align: right;
-    border-bottom: solid #cccccc;
-    border-width: 2px;
+.site-title{
+    background-color: #4aaaa5;
+    color:white;
+    text-align: left;
+    font-size: 30px;
+    font-style: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 20px;
+    margin-left: 200px;
 }
 
-.content-box {
-    background-color: #ffffff;
-    border: solid #dddddd;
-    border-width: 1px;
-    padding: 30px;
-    margin-left: 20%;
-    margin-right: 20%;
+.nav-links {
+    margin-left: 960px;
+    display: inline-block;
 }
 
 a {
@@ -28,6 +25,28 @@ a {
     padding-left: 7px;
     padding-right: 7px;
 }
+
+.nav-bar {
+    background-color: #ffffff;
+    padding-top: 20px ;
+    border-bottom: solid #cccccc;
+    border-width: 1.5px;
+}
+
+
+
+.content-box {
+    background-color: #ffffff;
+    border: solid #dddddd;
+    border-width: 1px;
+    padding: 30px;
+    width: 960px;
+    margin-top: 30px;
+    margin-left: 200px;
+    margin-right: 200px
+}
+
+
 
 .img {
     width: 200px;
@@ -42,17 +61,8 @@ a {
     padding-bottom: 20px;
 }
 
-/* 
-.title{
-    background-color: #4aaaa5;
-    padding: 20px;
-    color:white;
-    float: left;
-    text-align: center;
-    margin-top: 0;
-    position: fixed;
-    z-index: initial; */
-}
+
+
 
 .all-content {
     margin-left: 20%;
@@ -60,13 +70,3 @@ a {
 }
 
 
-
-/* .main-content {
-    position: absolute;
-} */
-
-
-/* 
-
-color: #777777;
-height: 65px; */
