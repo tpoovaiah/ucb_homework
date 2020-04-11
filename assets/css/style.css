@@ -1,7 +1,15 @@
 .background {
     background-image: url(https://www.toptal.com/designers/subtlepatterns/patterns/double-bubble-outline.png);
-    margin-left: 20%;
-    margin-right: 20%;
+}
+
+.nav-bar {
+    background-color: #ffffff;
+    padding-top: 20px ;
+    padding-bottom: 20px;
+    padding-right: 20%;
+    text-align: right;
+    border-bottom: solid #cccccc;
+    border-width: 2px;
 }
 
 .content-box {
@@ -9,10 +17,16 @@
     border: solid #dddddd;
     border-width: 1px;
     padding: 30px;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
-.nav-bar {
-    
+a {
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #777777;
+    padding-left: 7px;
+    padding-right: 7px;
 }
 
 .img {
