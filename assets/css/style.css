@@ -61,6 +61,7 @@ a {
 
 /* groups all of the main content on a given page */
 .content-box {
+    position: relative;
     background-color: #ffffff;
     border: solid #dddddd;
     border-width: 1px;
@@ -122,9 +123,15 @@ input[type=submit] {
     padding-bottom: 20px;
 }
 
+.column {
+    float: left;
+    width: 35%;
+}
+
 /* container for the portfolio image cards */
 .portfolio-cont {
     position: relative;
+    display: inline-block;
 }
 
 /* positioning for text within porfolio card */
