@@ -1,23 +1,28 @@
+/* adds the background wallpaper */
 .background {
-    background-image: url(https://www.toptal.com/designers/subtlepatterns/patterns/double-bubble-outline.png);
+    background-image: url("/assets/images/double-bubble-outline");
+    /* https://www.toptal.com/designers/subtlepatterns/patterns/double-bubble-outline.png */
 }
 
-.site-title{
+/* styles the site logo title Tanya Poovaiah */
+.logo{
     background-color: #4aaaa5;
     color:white;
-    text-align: left;
     font-size: 30px;
     font-style: bold;
     font-family: Georgia, 'Times New Roman', Times, serif;
     padding: 20px;
-    margin-left: 200px;
-}
-
-.nav-links {
-    margin-left: 960px;
+    margin-left: 210px;
     display: inline-block;
 }
 
+/* groups the links in the nav bar */
+    .nav-links {
+    margin-left: 550px;
+    display: inline-block;
+}
+
+/* styles the links in the nav bar */
 a {
     text-decoration: none;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -26,14 +31,19 @@ a {
     padding-right: 7px;
 }
 
+/* creates the main header */
 .nav-bar {
     background-color: #ffffff;
+    position: fixed;
+    left: 0;
+    top: 0;
     width: 100%;
-    padding-top: 20px ;
+    height: 75px;
     border-bottom: solid #cccccc;
     border-width: 1.5px;
 }
 
+/* creates the footer */
 .foot-bar {
     background-color: #666666;
     position: fixed;
@@ -48,6 +58,7 @@ a {
     border-width: 5px;
 }
 
+/* groups all of the main content on a given page */
 .content-box {
     background-color: #ffffff;
     border: solid #dddddd;
@@ -56,12 +67,13 @@ a {
     padding-right: 30px;
     padding-bottom: 30px;
     width: 960px;
-    margin-top: 30px;
+    margin-top: 100px;
     margin-left: 200px;
     margin-right: 200px
 }
 
 
+/* styles font in About Me */
 p {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
@@ -69,6 +81,7 @@ p {
     color: #777777;
 }
 
+/* styles the overall form for Contact */
 form {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
@@ -76,12 +89,14 @@ form {
     color: #777777;
 }
 
+/* styles the text inside the forms on Contact Me */
 input[type=text], input[type=email] {
     width: 100%;
     padding: 5px;
     color: #777777;
 }
 
+/* styles the Submit button on Contact Me */
 input[type=button], input[type=submit] {
     background-color: #4aaaa5;
     border: none;
@@ -91,7 +106,7 @@ input[type=button], input[type=submit] {
     margin-top: 20px;
 }
 
-
+/* formats the image on About Me */
 .img {
     width: 200px;
     height: 200px;
@@ -99,18 +114,15 @@ input[type=button], input[type=submit] {
     padding-right: 20px;
 }
 
+/* main title for each page section */
 .content-title {
     color: #4aaaa5;
     border-bottom: solid #cccccc;
     padding-bottom: 20px;
 }
 
-
-
-
-.all-content {
-    margin-left: 20%;
-    margin-right: 20%;
+/* styles portfolio card images */
+.portfolio {
+    float: left;
+    padding: 30px;
 }
-
-
