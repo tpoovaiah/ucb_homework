@@ -23,7 +23,7 @@
 }
 
 /* styles the links in the nav bar */
-a {
+.link {
     text-decoration: none;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: #777777;
@@ -157,5 +157,10 @@ input[type=submit] {
     padding-top: 20px;
     padding-bottom: 20px;
     font-size: 20px;
+}
+
+.portfolio-link {
+    color: white;
+    text-decoration: none;
 }
 
