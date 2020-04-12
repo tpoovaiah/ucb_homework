@@ -41,22 +41,6 @@
     height: 75px;
     border-bottom: solid #cccccc;
     border-width: 1.5px;
-    margin-bottom: ;
-}
-
-/* creates the footer */
-.foot-bar {
-    background-color: #666666;
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    text-align: center;
-    padding: 20px;
-    color: white;
-    font-size: x-small;
-    border-top: solid #4aaaa5;
-    border-width: 5px;
 }
 
 /* groups all of the main content on a given page */
@@ -124,11 +108,6 @@ input[type=submit] {
     padding-bottom: 20px;
 }
 
-.column {
-    float: left;
-    width: 35%;
-}
-
 /* container for the portfolio image cards */
 .portfolio-cont {
     position: relative;
@@ -150,18 +129,34 @@ input[type=submit] {
     padding-bottom: 30px;
 }
 
+/* styles the portfolio card textbanner */
 .portfolio-txt {
-    color: white;
     background-color: #4aaaa5;
-    text-align: center;
     width: 250px;
     padding-top: 20px;
     padding-bottom: 20px;
-    font-size: 20px;
+    text-align: center;
 }
 
+/* cleans the portfolio links */
 .portfolio-link {
     color: white;
     text-decoration: none;
+    font-size: 20px;
+}
+
+/* creates the footer */
+.foot-bar {
+    background-color: #666666;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    color: white;
+    font-size: x-small;
+    border-top: solid #4aaaa5;
+    border-width: 5px;
 }
 
