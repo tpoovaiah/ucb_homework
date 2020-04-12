@@ -1,7 +1,7 @@
 /* adds the background wallpaper */
 .background {
-    background-image: url("/assets/images/double-bubble-outline");
-    /* https://www.toptal.com/designers/subtlepatterns/patterns/double-bubble-outline.png */
+    background-image: url("https://www.toptal.com/designers/subtlepatterns/patterns/double-bubble-outline.png");
+    /* sourced above url from "inspect" of the source page */
 }
 
 /* styles the site logo title Tanya Poovaiah */
@@ -41,6 +41,7 @@ a {
     height: 75px;
     border-bottom: solid #cccccc;
     border-width: 1.5px;
+    margin-bottom: ;
 }
 
 /* creates the footer */
@@ -69,7 +70,7 @@ a {
     width: 960px;
     margin-top: 100px;
     margin-left: 200px;
-    margin-right: 200px
+    margin-right: 200px;
 }
 
 
@@ -97,7 +98,7 @@ input[type=text], input[type=email] {
 }
 
 /* styles the Submit button on Contact Me */
-input[type=button], input[type=submit] {
+input[type=submit] {
     background-color: #4aaaa5;
     border: none;
     color: white;
@@ -121,8 +122,33 @@ input[type=button], input[type=submit] {
     padding-bottom: 20px;
 }
 
-/* styles portfolio card images */
-.portfolio {
-    float: left;
-    padding: 30px;
+/* container for the portfolio image cards */
+.portfolio-cont {
+    position: relative;
 }
+
+/* positioning for text within porfolio card */
+.portfolio-cont span {
+    position: absolute;
+    left: 0px;
+    top: 130px;
+}
+
+/* styles portfolio card images */
+.portfolio-img {
+    width: 250px;
+    height: 200px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+}
+
+.portfolio-txt {
+    color: white;
+    background-color: #4aaaa5;
+    text-align: center;
+    width: 250px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+
